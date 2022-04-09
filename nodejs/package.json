@@ -1,0 +1,25 @@
+{
+  "name": "timeisfood",
+  "version": "1.0.0",
+  "description": "A node.js RESTful API for TimeIsFood project.",
+  "engines": {
+    "node": "10.14.2",
+    "npm": "6.4.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Alexandre Silva, Bruno Dantas, Hugo Carvalho, Diogo Neves, Luis Ferraz, Pedro Pereira and Renato Rebelo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
